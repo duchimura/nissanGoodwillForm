@@ -1,0 +1,37 @@
+﻿Module publicVariables
+    Public initializeForm As ModuleHandle
+    Public fgPartAmt As Double
+    Public fgLaborAmt As Double
+    Public fgExpAmt As Double
+    Public fgTotalAmt As Double
+    Public cpPartAmt As Double
+    Public cpLaborAmt As Double
+    Public cpExpAmt As Double
+    Public cpTotalAmt As Double
+    Public diPartAmt As Double
+    Public diLaborAmt As Double
+    Public diExpAmt As Double
+    Public diTotalAmt As Double
+    Public partsTotalAmt As Double
+    Public laborTotalAmt As Double
+    Public expTotalAmt As Double
+    Public totalCostAmt As Double
+    Public fgPercent As Double
+    Public cpPercent As Double
+    Public diPercent As Double
+    Public percentTotal As Double
+    Public boolOutlook As Boolean
+    Public htmlCode As String
+    Public str10thChar As String
+    Public strChar567 As String
+    Public outApp As Object
+    Public outMail As Object
+    Public nissanFOM As String
+    Public boolChkFailed As Boolean
+    Public boolRepairOnly As Boolean
+    Public boolRentalOnly As Boolean
+    Public boolRepairAndRental As Boolean
+    Public myData As DataObject
+    Public currentYear As Integer
+    Public decodedYear As Integer
+End Module
